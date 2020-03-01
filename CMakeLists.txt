@@ -73,8 +73,8 @@ target_sources(NetLib
         ${PROJECT_SOURCES} )
 
 target_include_directories(NetLib
-        PUBLIC
         SYSTEM
+        PUBLIC
         $<INSTALL_INTERFACE:include>
         "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Headers>"
         "$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/Headers/NetLib/${PLATFORM}>"
